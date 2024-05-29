@@ -21,7 +21,7 @@ To run this game, you need to have Python installed on your system. Additionally
 3. Run the game by executing the following command:
 
    ```bash
-   python snake_game.py
+   python main.py
    ```
 
 ### Controls
