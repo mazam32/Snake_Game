@@ -51,3 +51,10 @@ class Snake:
             new_turtle.color("white")
             new_turtle.setposition(position)
             self.all_turtles.append(new_turtle)
+            
+    def reset(self):
+        for snakes in self.all_turtles:
+            snakes.goto(1000, 1000)
+        self.all_turtles.clear()
+        self.create_snake()
+        self.head = self.all_turtles[0]
